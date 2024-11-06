@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0" name="lantern01">
+        <file id="0" name="lantern01/lantern01-0.png" width="182" height="173" pivot_x="0.494595" pivot_y="0.162217"/>
+        <file id="1" name="lantern01/lantern01-1.png" width="286" height="301" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="lantern_victorian">
+        <animation id="0" name="idle_off" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lantern01-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-0.70736"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="0" x="-0.70736"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle_on" length="2000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="2000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lantern01-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-0.70736"/>
+                </key>
+                <key id="1" time="2000" spin="0">
+                    <object folder="0" file="0" x="-0.70736"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="lantern01-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-2" y="83" scale_x="0.87108" scale_y="0.774834"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="-2" y="83" scale_x="0.949726" scale_y="0.844791"/>
+                </key>
+                <key id="2" time="2000" spin="0">
+                    <object folder="0" file="1" x="-2" y="83" scale_x="0.87108" scale_y="0.774834"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

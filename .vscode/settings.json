@@ -1,0 +1,5 @@
+{
+    "lua.debug.settings.luaVersion": "lua51",
+    "lua.targetVersion": "5.1",
+    "lua.debug.settings.cpath": ""
+}

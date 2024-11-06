@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="gorge_gamemodes.tex" />
+	<Elements>
+		<Element name="bg.tex" u1="0.001" u2="0.199" v2="0.999" v1="0.751" variant="" />
+		<Element name="bg_disabled.tex" u1="0.201" u2="0.399" v2="0.999" v1="0.751" variant="" />
+		<Element name="confusion.tex" u1="0.001" u2="0.199" v2="0.749" v1="0.501" variant="" />
+		<Element name="darkness.tex" u1="0.201" u2="0.399" v2="0.749" v1="0.501" variant="" />
+		<Element name="default.tex" u1="0.401" u2="0.599" v2="0.999" v1="0.751" variant="" />
+		<Element name="endless.tex" u1="0.601" u2="0.799" v2="0.999" v1="0.751" variant="" />
+		<Element name="hard.tex" u1="0.401" u2="0.599" v2="0.749" v1="0.501" variant="" />
+		<Element name="hungry.tex" u1="0.601" u2="0.799" v2="0.749" v1="0.501" variant="" />
+		<Element name="missing.tex" u1="0.001" u2="0.199" v2="0.499" v1="0.251" variant="" />
+		<Element name="moon_curse.tex" u1="0.201" u2="0.399" v2="0.499" v1="0.251" variant="" />
+		<Element name="murder_mystery.tex" u1="0.401" u2="0.599" v2="0.499" v1="0.251" variant="" />
+		<Element name="no_sweat.tex" u1="0.601" u2="0.799" v2="0.499" v1="0.251" variant="" />
+		<Element name="rush.tex" u1="0.001" u2="0.199" v2="0.249" v1="0.001" variant="" />
+		<Element name="sandbox.tex" u1="0.201" u2="0.399" v2="0.249" v1="0.001" variant="" />
+		<Element name="scaling.tex" u1="0.401" u2="0.599" v2="0.249" v1="0.001" variant="" />
+		<Element name="sick.tex" u1="0.601" u2="0.799" v2="0.249" v1="0.001" variant="" />
+		<Element name="thieves.tex" u1="0.801" u2="0.999" v2="0.999" v1="0.751" variant="" />
+	</Elements>
+</Atlas>

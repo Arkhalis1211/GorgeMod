@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0" name="spark">
+        <file id="0" name="spark/spark-0.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="spark/spark-6.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="spark/spark-1.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="spark/spark-2.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="spark/spark-3.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="spark/spark-4.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="spark/spark-5.png" width="63" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="spark/spark-7.png" width="63" height="76" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="dev_spark">
+        <animation id="0" name="anim" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="spark-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="spark" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="57">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="114">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="171">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="228">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="285">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="342">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="400">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="spark-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+                <key id="1" time="57" spin="0">
+                    <object folder="0" file="2"/>
+                </key>
+                <key id="2" time="114" spin="0">
+                    <object folder="0" file="3"/>
+                </key>
+                <key id="3" time="171" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+                <key id="4" time="228" spin="0">
+                    <object folder="0" file="5"/>
+                </key>
+                <key id="5" time="285" spin="0">
+                    <object folder="0" file="6"/>
+                </key>
+                <key id="6" time="342" spin="0">
+                    <object folder="0" file="1"/>
+                </key>
+                <key id="7" time="400" spin="0">
+                    <object folder="0" file="7"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
